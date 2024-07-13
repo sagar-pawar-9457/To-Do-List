@@ -1,0 +1,70 @@
+/* style for body  */
+body{
+    margin: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(230,2300,230);
+}
+/* style for container  */
+.container{
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(156,222,252);
+    box-shadow: 4px 5px 6px;
+    height: auto;
+    width: 30vw;
+}
+/* header style  */
+.header{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 900;
+    border-bottom: 0.5px solid white;
+    margin-bottom: 20px;
+}
+/* addtask style  */
+.addTask{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* input box style  */
+input{
+    padding: 7px;
+    border-radius: 5px;
+}
+/* button style hover  */
+button:hover{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px;
+}
+/* button style  */
+button{
+    background-color: rgb(244,242,153);
+    color: rgba(11,11,11);
+    padding: 4px;
+    border-radius: 4px;
+}
+/* ul style  */
+ul{
+    list-style: none;
+    padding: 15px;
+}
+/* style for li  */
+li{
+    display: flex;
+    justify-content:space-between;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0 25px;
+    margin-top: 12px;
+}
+/* li hover style  */
+li:hover{
+    border: 1px solid yellow;
+}
+

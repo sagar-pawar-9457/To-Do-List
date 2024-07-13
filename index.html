@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- create title for todo-list  -->
+    <title>To-Do-List</title>
+    <!-- link for css file  -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- create main container  -->
+      <div class="container">
+        <!-- create todo list heading container   -->
+         <div class="header">To-Do-List</div>
+         <div class="addTask">
+            <input type="text" placeholder="Add a new Task" id="inputTask">
+            <button onclick="addTask()">AddTask</button>
+         </div>
+         <ul class="task-List" id="task-List"></ul>
+
+      </div>
+    <!-- link for js file  -->
+    <script src="app.js"></script>
+</body>
+</html>
